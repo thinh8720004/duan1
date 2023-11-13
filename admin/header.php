@@ -37,7 +37,6 @@
             <i class="fa-regular fa-circle-user"></i>
                 <div>
                     <div class="name-adm">Trang Quản Trị</div>
-                    <?php echo $user_admin?>
                     <div class="qtv-adm">Quản trị viên</div>
            
                 </div>

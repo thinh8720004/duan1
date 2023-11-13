@@ -152,9 +152,9 @@
                     }
                 ?> 
             </div>
-            <div class="boxphai banner-sp1">
+            <!-- <div class="boxphai banner-sp1">
                 <img class="banner-sp2" style="width:352px;height: 505px;"  src="./images/banner-right.png" alt="">
-            </div>
+            </div> -->
         </div>
             
         </div>
