@@ -27,12 +27,12 @@
 
                                     <div class="ct-mota mb20"><?=$mota?></div>
 
-                                    <div class="mb20" style="color: red;font-size: 2vw;font-weight: bolder;"><?=$price?><ins style="color: red;font-size: 2vw">đ</ins></div>
+                                    <div class="mb20" style="color: red;font-size: 2vw;font-weight: bolder;"><?=number_format($price, 0, '.', ',')?><ins style="color: red;font-size: 2vw">đ</ins></div>
                                    
                                     
-                                    <div class="mb10" style="font-size: 1vw">Giá thị trường: <del style="font-size: 1.3vw;color: gray;"><?=$price_old?><ins style="font-size: 1.3vw;color: gray;">đ</ins></del></div>
+                                    <div class="mb10" style="font-size: 1vw">Giá thị trường: <del style="font-size: 1.3vw;color: gray;"><?=number_format($price_old, 0, '.', ',')?><ins style="font-size: 1.3vw;color: gray;">đ</ins></del></div>
 
-                                    <div style="font-size: 1vw;color:#73a91d">Tiết kiệm lên đến: <?=$price_old - $price?> <ins>đ</ins></div>
+                                    <div style="font-size: 1vw;color:#73a91d">Tiết kiệm lên đến: <?=number_format($price_old - $price, 0, '.', ',')?> <ins>đ</ins></div>
                                     
                                     
                                     <div class="sl-name mb10 mt10">Số lượng</div>
@@ -100,12 +100,12 @@
                                 <div class="boxsp">
                                     <a href="'.$linksp.'">
                                         <div class="sp9">
-                                            <img class="sp9-anh"  src="'.$hinh.'" alt="">
+                                            <img style="width: 300px;" class="sp9-anh"  src="'.$hinh.'" alt="">
                                             
                                             <div>'.$name.'</div>
                                             <div style="display: flex;justify-content: center;align-items: center;">
-                                                <p><b>'.$price.'</b><ins>đ</ins></p> &nbsp  &nbsp  &nbsp
-                                                <p style="color:gray"><del>'.$price_old.'</del><ins>đ</ins></p>
+                                                <p><b>'.number_format($price, 0, '.', ',').'</b><ins>đ</ins></p> &nbsp  &nbsp  &nbsp
+                                                <p style="color:gray"><del>'.number_format($price_old, 0, '.', ',').'</del><ins>đ</ins></p>
                                             </div>
                                         </div>
                                             

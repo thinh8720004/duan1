@@ -206,6 +206,8 @@
                 include "view/gioithieu.php";
                 break;
             case 'tintuc':
+                include "view/header.php";
+
                 include "view/tintuc.php";
                 break;
             case 'muahang':

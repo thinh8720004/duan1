@@ -86,10 +86,10 @@
                     </a>
                 </li>
                 <li>
-                    <a href="../index.php">
+                    <!-- <a href="../index.php">
                         <i class="fa-solid fa-house-chimney"></i>
                         Về giao diện Trang chủ
-                    </a>
+                    </a> -->
                 </li>
             </ul>
         </div>

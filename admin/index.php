@@ -293,16 +293,78 @@
                 
                 case 'dsbl':
                 include "./header.php";
-                    
+                // if(isset($_POST["submit"])){
+                // $hidden = $_POST[$hidden];}
+                // if(isset($_GET['id']) && ($_GET['id'] >0)){        
+                //     update_hidden_binhluan($_GET['id'],$hidden);
+                // }
+            //     if(isset($_GET['id']) && ($_GET['id'] > 0)){
+            //         $hidden = $_POST["hidden"];
+            //   update_hidden_binhluan($_GET['id'], $hidden);
+            //   echo $hidden;
+
+                  
+            //       echo $hidden;
+
+                // }
+                if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                    if (isset($_POST['hidden']) && isset($_GET['id']) && ($_GET['id'] > 0)) {
+                        $hidden = $_POST['hidden'];
+                        // Perform any further processing with $hidden here
+                        echo $hidden; // Just for testing
+                        update_hidden_binhluan($_GET['id'], $hidden);
+
+                    }
+
+                }
+
                     $listbinhluan = loadall_binhluan(0);
                     include "binhluan/list.php";
                     break;
+
+                   
+                    case 'anbl':
+                        include "./header.php";
+                    
+
+                    if(isset($_GET['id']) && ($_GET['id'] > 0)){
+                          $hidden = $_POST["hidden"];
+                  
+                  
+                          update_hidden_binhluan($_GET['id'], $hidden);
+                    // echo $hidden;
+
+                        
+                    //     echo $hidden;
+                    echo "ok";
+
+                      }
+                    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+                        if (isset($_POST['hidden']) && isset($_GET['id']) && ($_GET['id'] > 0)) {
+                            $hidden = $_POST['hidden'];
+                            // Perform any further processing with $hidden here
+                            echo $hidden; // Just for testing
+                        }
+                    }
+                    
+                        $listbinhluan = loadall_binhluan(0);
+                        include "binhluan/list.php";
+                        break; 
+
                 case 'xoabl':
                 include "./header.php";
 
                     if(isset($_GET['id']) && ($_GET['id'] >0)){        
                         delete_binhluan($_GET['id']);
                     }
+                    if (isset($_POST['hidden']) && isset($_GET['id']) && ($_GET['id'] > 0)) {
+                        $hidden = $_POST['hidden'];
+                        // Perform any further processing with $hidden here
+                        echo $hidden; // Just for testing
+                        update_hidden_binhluan($_GET['id'], $hidden);
+
+                    }
+
                     $listbinhluan = loadall_binhluan(0);
                     include "binhluan/list.php";
                     break;

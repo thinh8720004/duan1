@@ -71,11 +71,10 @@
             <div class="ft-top1">
                 <div>
                     <div>Tổng đài hỗ trợ</div>
-                    <p>Hotline: 036.37.38.586</p>
-                    <p>Fanpage : dhpd.org - Món gì cũng có</p>
-                    <p>Zalo: 036.37.38.586</p>
-                    <p>Địa chỉ: 18 Hoàng Cầu, Đống Đa, Hà Nội</p>
-                    <p>Email: dhpd-duan-bandoannhanh@gmail.com</p>
+                    <p>Hotline: 0337.190.360</p>
+                    <p>Zalo: 0337.190.360</p>
+                    <p>Địa chỉ: 30 Nguyễn Văn Cừ, Liên Chiểu,Đà Nẵng </p>
+                    <!-- <p>Email: dhpd-duan-bandoannhanh@gmail.com</p> -->
                 </div>
                 <div>
                     <div>Chính Sách</div>
@@ -93,10 +92,10 @@
         </div>
         <div class="ft-top2a">
             <div class="ft-top2">
-                <div>© Ăn gì cũng có | Vận hành bởi Đoàn Huy Phúc Đạo DHPD</div>
+                <!-- <div>© Ăn gì cũng có </div> -->
                 <div>
                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/channel/UCCktTAW7qH63-vP3izvbsOA"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                     <a href="https://www.tiktok.com/vi-VN"><i class="fa-brands fa-tiktok"></i></a>
                 </div>
             </div>

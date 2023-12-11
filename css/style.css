@@ -1,7 +1,7 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-    padding: 0 ;
+    padding: 0;
     font-family: sans-serif;
     font-size: 0.8vw;
 }
@@ -11,56 +11,86 @@
     margin: 25px auto;
 }
 
-.row{
-    float: left;
+.row {
+    /* float: left; */
     width: 100%;
 }
-.mt5{
+
+.mt5 {
     margin-top: 5px;
 }
-.mt10{
+
+.mt10 {
     margin-top: 10px;
 }
-.mr5{
+
+.mr5 {
     margin-right: 5px;
 }
-.mb{
+
+.mb {
     margin-bottom: 10px;
 }
-.mb5{
+
+.mb5 {
     margin-bottom: 5px;
 }
-.mb10{
+
+.mb10 {
     margin-bottom: 10px;
 }
-.mb20{
+
+.mb20 {
     margin-bottom: 20px;
 }
-.text-size{
+
+.text-size {
     font-size: 1.4vw;
 }
-.text-size1{
+
+.text-size1 {
     font-size: 1vw;
     color: #090;
     margin-top: 5px;
 }
-.sp9-anh{
-    width: 100%;
+
+.sp9-anh {
+    /* width: 100%; */
+    /* height: 300px; */
 }
-.mr{
+
+.sp9-anh img {
+    /* width: 100px; */
+    /* height: 250px; */
+}
+
+.sp9-anh {
+    height: 150px;
+    width: 80%;
+}
+
+.sp9-anh img {
+    height: 250px;
+    /* width: 100%; */
+}
+
+.mr {
     margin-right: 2%;
 }
+
 .demo {
     background-color: antiquewhite;
     min-height: 100px;
 }
-.header{
+
+.header {
     background-color: aquamarine;
     border: 1px solid #090;
     color: blue;
     border-radius: 5px;
 }
-.footer{
+
+.footer {
     background-color: aquamarine;
     border: 1px solid #090;
     font-size: 0.8vw;
@@ -68,24 +98,29 @@
     border-radius: 5px;
     padding: 20px;
 }
+
 .header h1 {
     margin: 20px;
     font-size: 1.2vw;
 }
-.menu{
+
+.menu {
     background-color: #772f2d;
     color: #CCC;
     border-radius: 5px;
 }
-.boxtrai{
+
+.boxtrai {
     float: left;
     width: 74%;
 }
-.boxphai{
+
+.boxphai {
     float: left;
     width: 24%;
 }
-.boxtitle{
+
+.boxtitle {
     color: #333;
     padding: 10px;
     background-color: #EEE;
@@ -93,20 +128,23 @@
     border-top-right-radius: 5px;
     border: 1px solid #CCC;
 }
-.boxcontent{ 
+
+.boxcontent {
     border-left: 1px solid #CCC;
     border-right: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    min-height: 200px; 
+    min-height: 200px;
     padding: 20px;
 }
-.boxcontent2{
+
+.boxcontent2 {
     border-left: 1px solid #CCC;
     border-right: 1px solid #CCC;
 }
-.boxfooter{
+
+.boxfooter {
     padding: 10px;
     background-color: #EEE;
     border-bottom-left-radius: 5px;
@@ -115,20 +153,24 @@
     border-right: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
 }
-.banner{
+
+.banner {
     min-height: 300px;
     width: 100%;
     text-align: center;
 }
+
 .banner img {
     height: 300px;
 }
-.boxsp1{
+
+.boxsp1 {
     display: grid;
     grid-template-columns: repeat(3, 32%);
     grid-column-gap: 10px;
 }
-.boxsp{
+
+.boxsp {
     margin-right: 2%;
     /* float: left;
     width: 30%; */
@@ -139,79 +181,89 @@
     text-align: center;
     text-decoration: none;
 }
-.boxsp:hover{
+
+.boxsp:hover {
     border: 1px solid red;
 }
-.boxsp a span{
+
+.boxsp a span {
     font-size: 15px;
     color: rgb(226, 133, 11);
     text-decoration: none;
 }
-.boxsp p{
+
+.boxsp p {
     color: #090;
 }
 
-.img img{
+.img img {
     height: 220px;
 }
-.menu ul{
+
+.menu ul {
     padding: 10px;
 }
-.menu ul li{
+
+.menu ul li {
     list-style-type: none;
     display: inline;
     padding: 0 15px;
 }
-.menu ul li a{
+
+.menu ul li a {
     color: #CCC;
     text-decoration: none;
     font-size: 0.8vw;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: white;
 }
 
 
 /* Box tài khoản */
-.formtaikhoan{
+
+.formtaikhoan {
     line-height: 150%;
 }
+
 .formtaikhoan input[type="text"],
 .formtaikhoan input[type="email"],
 .formtaikhoan input[type="password"],
-.frmcontent input[type="text"]
-{
+.frmcontent input[type="text"] {
     width: 100%;
     border: 1px solid #CCC;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.formtaikhoan input[type="checkbox"]{
+
+.formtaikhoan input[type="checkbox"] {
     border-radius: 5px;
 }
+
 .formtaikhoan input[type="submit"],
 .frmcontent input[type="submit"],
 .frmcontent input[type="reset"],
-.frmcontent input[type="button"] 
-{
+.frmcontent input[type="button"] {
     border-radius: 5px;
     padding: 5px 10px;
     background-color: white;
     border: 1px solid #CCC;
 }
+
 .formtkiem input[type="submit"],
-.formtkiem input[type="text"]
-{
+.formtkiem input[type="text"] {
     border-radius: 5px;
     padding: 5px 10px;
     background-color: white;
     border: 1px solid #CCC;
 }
-.formtkiem input[type="submit"]:hover
-{
+
+.formtkiem input[type="submit"]:hover {
     cursor: pointer;
     background-color: #CCC;
 }
+
 .formtaikhoan input[type="submit"]:hover,
 .frmcontent input[type="submit"]:hover,
 .frmcontent input[type="reset"]:hover,
@@ -219,77 +271,90 @@
     background-color: #CCC;
 }
 
-.formtaikhoan li a{
+.formtaikhoan li a {
     color: teal;
     text-decoration: none;
 }
-.formtaikhoan li a:hover{
+
+.formtaikhoan li a:hover {
     color: rgb(31, 180, 31);
     text-decoration: underline;
 }
 
 
 /* Menu dọc */
-.menudoc ul{
-   list-style-type: none;
+
+.menudoc ul {
+    list-style-type: none;
 }
-.menudoc ul li{
+
+.menudoc ul li {
     padding: 10px 20px;
     background-color: #fff;
     border-bottom: 1px solid #CCC;
     text-decoration: none;
 }
-.menudoc ul li a{
+
+.menudoc ul li a {
     text-decoration: none;
     color: #666;
 }
-.menudoc ul li:hover{
+
+.menudoc ul li:hover {
     background-color: #CCC;
 }
-.searbox input[type="text"]{
+
+.searbox input[type="text"] {
     width: 100%;
     padding: 7px 10px;
     background-color: #fff;
     border: 1px solid #CCC;
     border-radius: 5px;
-    
 }
 
+
 /* Top 10 */
-.top10 img{
+
+.top10 img {
     width: 20%;
     height: 40px;
     margin-right: 5px;
     border-radius: 5px;
     border: 1px solid #CCC;
 }
-.top10 a{
+
+.top10 a {
     color: #666;
     text-decoration: none;
 }
-.top10 a:hover{
+
+.top10 a:hover {
     color: #000;
     text-decoration: underline;
 }
-.top10{
+
+.top10 {
     display: flex;
     align-items: center;
 }
 
+
 /* Admin */
-.headeradmin{
+
+.headeradmin {
     background-color: #772f2d;
     border: 1px solid #CCC;
-    color:white;
+    color: white;
     border-radius: 5px;
-    padding:20px 10px;
-    
+    padding: 20px 10px;
 }
+
 .headeradmin h1 {
     font-size: 2vw;
     padding: 10px;
 }
-.frmtitle{
+
+.frmtitle {
     background-color: #772f2d;
     border: 1px solid #CCC;
     color: white;
@@ -297,248 +362,311 @@
     padding: 20px 10px;
     text-align: center;
 }
-.frmcontent{
+
+.frmcontent {
     padding: 20px 0px;
 }
 
+
 /* TABLE */
-table{
+
+table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
     border: 1px solid black;
 }
 
-td{
+td {
     border-top: 1px solid black;
-   
     padding: 10px;
 }
-th{
+
+th {
     padding: 10px;
     background-color: #CCC;
 }
 
 
-
 /* Slide Show */
 
+
 /* Slideshow container */
+
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
+
 
 /* Hide the images by default */
+
 .mySlides {
-  display: none;
+    display: none;
 }
+
 
 /* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
+
 
 /* Position the "next button" to the right */
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
+
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
 
 /* Caption text */
+
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
+
 
 /* Number text (1/3 etc) */
+
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
+
 
 /* The dots/bullets/indicators */
+
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.active,
+.dot:hover {
+    background-color: #717171;
 }
+
 
 /* Fading animation */
+
 .fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
-  /* End lideshow */
 
-  /* SP chi tiết */
-  .spct{
+
+/* End lideshow */
+
+
+/* SP chi tiết */
+
+.spct {
     text-align: center;
-  }
-  .spct img{
+}
+
+.spct img {
     width: 80%;
-  }
+}
+
 
 /* Danh mục */
-.adddm input{
+
+.adddm input {
     padding: 5px 10px;
     background-color: white;
     width: 50%;
     margin: 5px 0;
 }
-.adddm1 input{
+
+.adddm1 input {
     margin: 5px 0;
 }
-.adddm input:hover, .adddm input:focus{
+
+.adddm input:hover,
+.adddm input:focus {
     background-color: rgb(236, 232, 232);
     border: 1px solid #CCC;
 }
 
+
 /* Hàng hóa */
-.sp-all{
+
+.sp-all {
     display: flex;
     gap: 20px;
 }
+
 .sp-one textarea,
 .sp-one select,
-.sp-one input{
+.sp-one input {
     width: 100%;
     padding: 5px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.sp-one1 input{
+
+.sp-one1 input {
     margin: 10px 0;
     padding: 5px;
 }
+
 .sp-one textarea:hover,
 .sp-one select:hover,
 .sp-one input:hover,
 .sp-one textarea:focus,
 .sp-one select:focus,
-.sp-one input:focus{
+.sp-one input:focus {
     background-color: #ccc;
 }
+
+
 /* Khách hàng */
-.kh-all{
+
+.kh-all {
     display: flex;
     gap: 20px;
 }
+
 .kh-one select,
-.kh-one input{
+.kh-one input {
     width: 100%;
     padding: 5px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
-.kh-one1 input{
+
+.kh-one1 input {
     margin: 10px 0;
     padding: 5px;
 }
+
 .kh-one select:hover,
 .kh-one input:hover,
 .kh-one select:focus,
-.kh-one input:focus{
+.kh-one input:focus {
     background-color: #ccc;
 }
 
+
 /* Tìm kiếm form */
-.tk-form{
+
+.tk-form {
     padding: 5px;
     width: 200px;
     border-radius: 10px;
 }
-.tk-form-sl{
+
+.tk-form-sl {
     padding: 5px;
     border-radius: 10px;
 }
-.tk-form-bt{
+
+.tk-form-bt {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
 }
-.tk-form-bt:hover{
+
+.tk-form-bt:hover {
     background-color: green;
     color: white;
 }
 
+
 /*Trang Admin */
 
-.box-left{
+.box-left {
     padding-left: 10px;
     width: 18%;
     height: auto;
     border-right: 1px solid gray;
 }
-.box-right{
+
+.box-right {
     width: 78%;
-    
 }
-.dis-flex{
+
+.dis-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.box-left ul li{
+
+.box-left ul li {
     list-style-type: none;
     margin-bottom: 30px;
     text-align: center;
 }
-.box-left ul li a{
+
+.box-left ul li a {
     text-decoration: none;
     font-size: 1vw;
     display: flex;
     column-gap: 10px;
     align-items: center;
 }
+
+
 /* Box main */
-.box-main{
+
+.box-main {
     display: flex;
     justify-content: space-between;
 }
+
+
 /* Infor Admin */
-.inf-admin{
+
+.inf-admin {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -546,13 +674,14 @@ th{
     border-bottom: 1px solid gray;
     padding-bottom: 15px;
 }
-.inf-admin i{
+
+.inf-admin i {
     font-size: 50px;
     color: gray;
     margin-bottom: 15px;
 }
 
-.qtv-adm{
+.qtv-adm {
     background-color: #772f2d;
     color: white;
     text-align: center;
@@ -560,6 +689,6 @@ th{
     margin-top: 5px;
 }
 
-.name-adm{
+.name-adm {
     font-size: 1vw;
 }

@@ -120,15 +120,20 @@ return false;
 
 
             if(input.value === ''){
-                input.style.backgroundColor = 'orange';
+                // input.style.backgroundColor = 'orange';
+                input.style.border = '1px solid red';
+
                 input.style.color = 'white';
                 userError.style.display = 'block';
                 userError.innerText = 'Tên Tài Khoản Không Được Bỏ Trống';
 return false;
 
             } else if(input.value.length <= 3){
-                input.style.backgroundColor = 'orange';
-                input.style.color = 'white';
+                // input.style.backgroundColor = 'orange';
+                input.style.border = 'red';
+                input.style.border = '1.5px solid red';
+
+                input.style.color = 'black';
                 userError.style.display = 'block';
                 userError.innerText = 'Tên Tài Khoản Không Dưới 3 Kí Tự';
 return false;

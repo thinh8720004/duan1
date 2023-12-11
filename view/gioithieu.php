@@ -109,7 +109,7 @@
       }
     </style>
     <div class="">
-      <div class="">
+      <!-- <div class="">
         <h1 class="mb" style=" text-align: center; font-size: xx-large;">Vì sao nên lựa chọn Foody - DHPD</h1>
         <div class="choose" style="margin-top: 50px;margin-bottom: 80px;">
           <div class="content">
@@ -157,12 +157,12 @@
             đến không vì miếng ngon mà đến vì tình thân gia đình, ủng hộ Shop DHPD thành thương hiệu số 1 Hà thành.</div>
         </div>
 
-      </div>
+      </div> -->
       <br>
 
       <h2 class="mt30" style=" text-align: center; font-size: xx-large;">Bộ phận nhân sự</h2>
       <div class="employee">
-        <div class="grid">
+        <!-- <div class="grid">
           <div class="member">
             <img style="width: 200px;height: 300px" src="./images/doannv.png" alt="">
             <p class="name"> Nguyễn Văn Đoàn </p>
@@ -187,12 +187,13 @@
             <p class="role">Chức vụ : Thiết kế và xây dựng giao diện </p>
             <p class="email"> Email : huytqph27342@fpt.edu.vn</p>
           </div>
-        </div>
+        </div> -->
       </div>
 
       </script>
       <div class="">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.8410320579424!2d105.74095901476346!3d21.039045785992847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454962c0b6523%3A0x5c76c67564d9d1b9!2zUGjhu5EgVHLhu4tuaCBWxINuIELDtCwgUGjGsMahbmcgQ2FuaCwgSMOgIE7hu5lpLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1635607330848!5m2!1sen!2s" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <!-- <iframe  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245368.20484126982!2d108.07812645!3d16.071809050000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2zxJDDoCBO4bq1bmc!5e0!3m2!1svi!2s!4v1701195204938!5m2!1svi!2s" width="600" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
   </div>

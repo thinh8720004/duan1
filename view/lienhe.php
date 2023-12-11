@@ -1,6 +1,8 @@
 <div class="row">
     <div class="menu-main mb">
         <?php include "menu-main.php"?>
+        <?php include "view/menu-main.php"?>
+
     </div>
     <div class="boxtitle">LIÊN HỆ</div>
     <div class="boxcontent row">
@@ -10,10 +12,10 @@
         "
         >
         <section class="contact">
-            <p><strong>FOODY</strong> chuyên cung cấp các món ăn vặt ngon ngon chất lượng #1, các món ăn vặt phổ biến nhất như: cơm cháy chà bông, khô bò, khồ gà, mực xé sợi, rong biển,...</p>
-            <p>Địa chỉ: 18 Hoàng Cầu, Đống Đa, Hà Nội</p>
+            <p><strong>DNS</strong> chuyên cung cấp các sản phẩm thiết bị điện tử gúa rẻ</p>
+            <!-- <p>Địa chỉ: 18 Hoàng Cầu, Đống Đa, Hà Nội</p>
             <p>Điện thoại: 036.37.38.586</p>
-            <p>Email : dhpd-duan-bandoannhanh@gmail.com</p>
+            <p>Email : dhpd-duan-bandoannhanh@gmail.com</p> -->
         </section>
         <section class="contact-form">
             <form action="index.php?act=addlh" method="post">

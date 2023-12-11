@@ -36,8 +36,9 @@
                     <input type="password" name="pass" ><br>
                 </div>
 
-                <div class="row mb10">
-                    <input type="checkbox"> Ghi nhớ tài khoản?
+                <div class="row mb10" style=" display: flex;
+    align-items: center; ">
+                    <input type="checkbox" style="margin-right: 5px; " >  Ghi nhớ tài khoản
                 </div>
                 <div class="row mb10">
                     <input type="submit" value="Đăng nhập" name="dangnhap" id="">
@@ -45,8 +46,8 @@
                 
             </form>
             <div class="q-dk">
-                <li><a href="index.php?act=quenmk">> Quên mật khẩu</a></li>
-                <li><a href="index.php?act=dangky">> Đăng ký thành viên</a></li>
+                <li><a href="index.php?act=quenmk">  Quên mật khẩu</a></li>
+                <li><a href="index.php?act=dangky"> Đăng ký thành viên</a></li>
             </div>
             
             <?php } ?>

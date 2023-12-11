@@ -1,7 +1,7 @@
-
+<!-- 
 <div class="row">
     <div class="menu-main mb">
-        <?php include "menu-main.php"?>
+    <?php include "view/menu-main.php"?>
     </div>
     <div class="boxtitle">Tin Tức</div>
     <div class="boxcontent row">
@@ -65,7 +65,9 @@
                     </div>
                 </div>
             </a>
-            <!-- Chính sách -->
+             Chính sách -->
+
+<!--              
             <a href="index.php?act=muahang">
                 <div class="item-post">
                     <img src="./view/images/post/quydinh.jpg" alt="">
@@ -100,4 +102,4 @@
             </a>
         </div>
     </div>
-</div>
+</div>  -->

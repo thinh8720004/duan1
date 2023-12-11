@@ -54,7 +54,7 @@
                     // echo "Nội dung bình luận ở đây: ".$idpro;
                     foreach ($dsbl as $bl) {
                         extract($bl);
-                         
+                         if($hidden == 1){
                         
                         echo '<tr>
                                 <td>'.$noidung.'</td>
@@ -71,7 +71,7 @@
                                 echo '
                                 <td>'.$ngaybinhluan.'</td>
                             </tr>
-                        ';
+                        ';}
                     }
                 ?>
                 

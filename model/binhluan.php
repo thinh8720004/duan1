@@ -15,4 +15,9 @@
             $sql = "delete from binhluan where id =".$id;
             pdo_execute($sql);
         }
+
+        function update_hidden_binhluan($id, $hidden){
+            $sql = "UPDATE binhluan SET hidden = '$hidden' WHERE id = $id";
+             pdo_execute($sql);}
+        
 ?>

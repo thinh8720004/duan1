@@ -1,5 +1,5 @@
 <div class="row menu-main">
-        <ul class="nav">
+        <ul class="nav" style="width: 75%;">
             <li><a class="home" href="index.php">Trang chủ</a></li>
             <li>
                 <a class="product" href="#">Sản phẩm</a>
@@ -24,7 +24,7 @@
         </ul>    
 
     <div class="">
-        <form class="form-tk" action="index.php?act=sanpham" method="post">
+        <form class="form-tk" action="index.php?act=sanpham" method="post" style="width: 20%;">
             <input type="text" name="kyw" id="" placeholder="Từ khóa tìm kiếm" required>
             <button type="submit" name="timkiem"><i class="fa-solid fa-magnifying-glass"></i>
         </form>

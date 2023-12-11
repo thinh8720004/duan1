@@ -34,9 +34,11 @@
                 <tr>
                     <td><img src="' . $hinh . '" height="80px" width="150px"></td>
                     <td>' . $cart[1] . '</td>
-                    <td>' . $cart[3] . '</td>
+            
+                    <td>' . number_format($cart[3] , 0, '.', ',') . '</td>
+
                     <td ><input style="width:80px" type="number" min="1" step="1" value="' . $cart[4] . '" ></td>
-                    <td>'.$ttien.'</td>
+                    <td>'.number_format($ttien, 0, '.', ',').'</td>
                     '.$xoasp_td.'
                 </tr>';
             $i += 1;
@@ -45,7 +47,9 @@
         echo '
             <tr>
                 <td colspan ="4">Tổng đơn hàng</td>
-                <td>'.$tong.'</td>
+            
+                <td>'.number_format($tong, 0, '.', ',').'</td>
+
                 '.$xoasp_td2.'
             </tr>
         ';
@@ -75,7 +79,7 @@
                 <tr>
                     <td><img src="'.$hinh.'" height="80px" width="150px"></td>
                     <td>'.$cart['name'].'</td>
-                    <td>'.$cart['price'].'</td>
+                    <td>'.number_format($cart['price'], 0, '.', ',').'</td>
                     <td>'.$cart['soluong'].'</td>
                     <td>'.$cart['thanhtien'].'</td>
                 </tr>';

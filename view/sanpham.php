@@ -28,7 +28,7 @@
                                                 <img class="sp9-anh"  src="'.$hinh.'" alt="">
                                             </div>
                                             <span>'.$name.'</span>
-                                            <p>'.$price.'$</p>    
+                                            <p>'.number_format($price,0,",",",").'</p>    
                                         </a>
                                         
                                         ';
