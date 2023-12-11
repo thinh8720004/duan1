@@ -50,4 +50,46 @@
         $check=pdo_query_one($sql);
         return $check;
     }
+    function update_taikhoan_qmk($email,$matkhaumoi){
+        // $sql="update taikhoan set  pass = '".$matkhaumoi."' where email ='".$email; 
+        $sql = "update taikhoan set `pass` = '" . $matkhaumoi . "' where email = '" . $email . "'";
+
+        pdo_execute($sql);
+    }
+    function guimail($email,$matkhaumoi){
+        require "PHPMailer-master/src/PHPMailer.php"; 
+    require "PHPMailer-master/src/SMTP.php"; 
+    require 'PHPMailer-master/src/Exception.php'; 
+    $mail = new PHPMailer\PHPMailer\PHPMailer(true);//true:enables exceptions
+    try {
+        $mail->SMTPDebug = 0; //0,1,2: chế độ debug
+        $mail->isSMTP();  
+        $mail->CharSet  = "utf-8";
+        $mail->Host = 'smtp.gmail.com';  //SMTP servers
+        $mail->SMTPAuth = true; // Enable authentication
+        $mail->Username = 'phanq3379@gmail.com'; // SMTP username
+        $mail->Password = 'rijyaeebafsficmy';   // SMTP password
+        $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 
+        $mail->Port = 465;  // port to connect to                
+        $mail->setFrom('phanq3379@gmail.com','Nhóm6'); 
+        $mail->addAddress($email); 
+        $mail->isHTML(true);  // Set email format to HTML
+        $mail->Subject = 'mật khẩu mới';
+        $noidungthu = "mật khẩu mới là {$matkhaumoi}"; 
+        $mail->Body = $noidungthu;
+        $mail->smtpConnect( array(
+            "ssl" => array(
+                "verify_peer" => false,
+                "verify_peer_name" => false,
+                "allow_self_signed" => true
+            )
+        ));
+        $mail->send();
+        echo 'Đã gửi mail xong';
+    } catch (Exception $e) {
+        echo 'Error: ', $mail->ErrorInfo;
+    }
+    }
+    
+
 ?>

@@ -22,8 +22,16 @@
                 </form>
                 <h2 class="thongbao">
                     <?php 
-                        if(isset($thongbao) && ($thongbao != "")){
+                        if(isset($thongbao)){
                             echo $thongbao;
+                        // echo "lỗi";
+                        // echo $matkhaumoi;
+
+                        }else{
+                            $thongbao='';
+                            echo $thongbao;
+                        // echo $matkhaumoi;
+                        // echo "Lỗi";
                         }
                     ?>
                 </h2>

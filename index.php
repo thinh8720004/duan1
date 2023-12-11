@@ -80,7 +80,18 @@
 
                     $checkemail = checkemail($email);
                     if(is_array($checkemail)){
-                        $thongbao = "Mật khẩu của bạn là: ".$checkemail['pass'];
+
+                        // $thongbao = "Mật khẩu của bạn là: ".$checkemail['pass'];
+
+                        $matkhaumoi = substr(md5(rand(0,999999)), 0, 9);
+                        // echo ($matkhaumoi);
+                    // update_forget_password($email,$matkhaumoi);
+                    update_taikhoan_qmk($email,$matkhaumoi);
+                   
+
+                    // gửi mail
+                    $thongbao = "Đã đổi mật khẩu thành công. Vui lòng kiểm tra gmail!";
+                    guimail($email,$matkhaumoi);
                     }else{
                         $thongbao = "Email không tồn tại !";
                     }
